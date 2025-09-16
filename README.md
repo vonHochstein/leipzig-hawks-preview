@@ -34,15 +34,15 @@ Reihenfolge:
 
 📬 E-Mail-Adressen & Domain
 - Die Domain leipzig-hawks.de soll beibehalten werden – korrekt?
-- Wie viele E-Mail-Adressen bzw. E-Mailgruppen gibt es aktuell – und sollen diese erhalten bleiben? Wäre eine Verschlankung denkbar? (z.B. Vorstand, Männer, Frauen, Kinder)
+- Wie viele E-Mail-Adressen oder Gruppen gibt es derzeit? Können diese reduziert werden?
 - Müssen Inhalte der E-Mail Postfächer zwingend erhalten bleiben oder gesichert werden?
 - Wie wird Mail aktuell verwaltet? Gibt es direkten Zugang zum DNS-Bereich/ IONOS oder nur zu den konkreten Postfächern?
 
 📑 Inhalte & Struktur
 - Welche Unterseiten braucht die neue Seite? Neuausrichtung oder Struktur erhalten?
-- Gibt es aktuelle Inhalte in digitaler Form (Texte, Logos, Bilder) die verwendet werden sollen? Wer stellt die bereit?
+- Gibt es digitale Inhalte wie Texte, Logos oder Bilder, die übernommen werden sollen? Wer liefert sie?
 - Sollen Funktionen wie ein Kontaktformular, Social-Media-Verlinkungen oder eine Bildergalerie enthalten sein?
-- Gibt es besondere Anforderungen an Barrierefreiheit, Mobilfreundlichkeit oder Datenschutz (DSGVO)?
+- Gibt es Vorgaben oder Wünsche zu Barrierefreiheit, mobiler Optimierung oder DSGVO?
 
 🔧 Technik & Hosting
 - Ich plane eine moderne, statische Seite (schnell, wartungsarm, für Mobilgeräte optimiert) und würde das Hosting übernehmen. Passt das zu euren Vorstellungen?
@@ -56,11 +56,10 @@ Reihenfolge:
   → Alternativ wäre ein einfacher DSGVO-freundlicher Besucherzähler möglich (ohne Cookies).
 
 🧾 Merchandise & Ticketverkauf
-- Werden Merchandise-Artikel und Tickets weiterhin über externe Anbieter oder Partnerseiten vertrieben?
-  → Ich empfehle, diese Bereiche nicht in die Vereinswebsite zu integrieren – damit kein zusätzlicher Pflege‑ und  Haftungsaufwand entsteht.
+- Diese Bereiche sollten aus Gründen der Wartung und rechtlichen Verantwortung weiterhin extern bleiben.
 
 ✅ Zusätzliche Wünsche oder Ideen?
 - Gibt es Vorbilder für Vereinsseiten, die euch gefallen? (Links oder Beispiele)
 - Habt ihr Logo-Dateien, genau definierte Vereinsfarben, Schriften etc. – oder soll ich gestalterisch unterstützen?
-- Gibt es ein grobes Zeitfenster, bis wann die neue Seite fertig sein soll/ muss?
+- Gibt es einen groben Zeitrahmen für die Fertigstellung der Seite?
 - Wünscht ihr ein Angebot vorab? (Hierzu müssen eure Anforderungen vorbesprochen werden)
