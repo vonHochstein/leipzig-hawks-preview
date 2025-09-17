@@ -3,7 +3,8 @@ Testversion, rein privat, kein offizieller Webauftritt des Vereins
 
 Notizen Allgemein
 - Domain registriert: 2016-12-28
-- Hoster: IONOS
+- Domain Hoster: IONOS
+- E-Mail Hoster: IONOS
 - .net und .com sinnlos mit gemietet?
 - 
 
