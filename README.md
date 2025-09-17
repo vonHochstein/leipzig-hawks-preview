@@ -6,7 +6,7 @@ Notizen Allgemein
 - Domain Hoster: IONOS
 - E-Mail Hoster: IONOS
 - .net und .com sinnlos mit gemietet?
-- 
+- https://web.archive.org/web/20250000000000*/https://leipzig-hawks.de/
 
 
 Notizen zur Optimierung
