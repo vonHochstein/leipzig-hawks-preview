@@ -66,6 +66,17 @@ Reihenfolge:
 - Müssen Inhalte der E-Mail Postfächer zwingend erhalten bleiben oder gesichert werden?
 - Wie wird Mail aktuell verwaltet? Gibt es direkten Zugang zum DNS-Bereich/ IONOS oder nur zu den konkreten Postfächern?
 
+🌐 Domainvarianten & Markenschutz
+Es existieren aktuell mehrere Domains im Umfeld von „Leipzig Hawks“, z. B. mit oder ohne Bindestrich sowie mit verschiedenen Endungen (.de, .com, .net, .org etc.).
+Einige davon sind bereits registriert, aber nicht aktiv genutzt oder weitergeleitet.
+
+Frage:
+Möchtet ihr, dass diese zusätzlichen Domains langfristig gesichert, zentral verwaltet oder aktiv weitergeleitet werden – z. B. um Verwechslungen oder Missbrauch zu vermeiden?
+
+➤ Falls ja: Welche Domains gehören euch bereits?
+➤ Besteht Interesse, weitere Varianten zu registrieren oder von Dritten zurückzuholen, falls möglich?
+➤ Sollen Tippfehler-Domains wie leipzighawks.de künftig gezielt weiterleiten (z. B. für Nutzerfreundlichkeit)?
+
 📑 Inhalte & Struktur
 - Welche Unterseiten braucht die neue Seite? Neuausrichtung oder Struktur erhalten?
 - Gibt es digitale Inhalte wie Texte, Logos oder Bilder, die übernommen werden sollen? Wer liefert sie?
