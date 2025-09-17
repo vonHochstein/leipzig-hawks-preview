@@ -1,6 +1,11 @@
 # leipzig-hawks-preview
 Testversion, rein privat, kein offizieller Webauftritt des Vereins
 
+Notizen Allgemein
+- Domain registriert: 2016-12-28
+- Hoster: IONOS
+
+
 Notizen zur Optimierung
 - derzeit ohne Favicon!
 
