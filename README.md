@@ -4,8 +4,13 @@ Testversion, rein privat, kein offizieller Webauftritt des Vereins
 Notizen Allgemein
 - Domain registriert: 2016-12-28
 - Domain Hoster: IONOS
+  - weiterhin anhängig:
+    leipzighawks.de (2024-08-23)
+    leipzighawks.com (frei)
+    leipzighawks.net (frei)
+    leipzig-hawks.com (2015-08-19)
+    leipzig-hawks.net (2021-07-01)
 - E-Mail Hoster: IONOS
-- .net und .com sinnlos mit gemietet?
 - https://web.archive.org/web/20250000000000*/https://leipzig-hawks.de/
 
 
