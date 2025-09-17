@@ -104,3 +104,10 @@ Möchtet ihr, dass diese zusätzlichen Domains langfristig gesichert, zentral ve
 - Habt ihr Logo-Dateien, genau definierte Vereinsfarben, Schriften etc. – oder soll ich gestalterisch unterstützen?
 - Gibt es einen groben Zeitrahmen für die Fertigstellung der Seite?
 - Wünscht ihr ein Angebot vorab? (Hierzu müssen eure Anforderungen vorbesprochen werden)
+
+
+Ich habe mich mit eurer Website intensiv beschäftigt und kann derzeit keine technische Instabilität erkennen, die auf das Hosting selbst zurückzuführen wäre. IONOS ist im Regelfall zuverlässig. Möglicherweise liegen die Probleme eher an der aktuellen Betreuung, Struktur oder eingebundenen Diensten.
+
+Ich würde euch also zwei Wege vorschlagen:
+– Entweder ihr sprecht mit eurem bisherigen Anbieter und lasst prüfen, ob technisch oder vertraglich was im Argen liegt.
+– Oder ich setze für euch eine komplett neue, moderne, wartungsarme Seite auf – das wäre natürlich mit Aufwand verbunden, aber langfristig nachhaltiger.
