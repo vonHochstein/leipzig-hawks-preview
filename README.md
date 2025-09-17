@@ -70,6 +70,8 @@ Reihenfolge:
 Es existieren aktuell mehrere Domains im Umfeld von „Leipzig Hawks“, z. B. mit oder ohne Bindestrich sowie mit verschiedenen Endungen (.de, .com, .net, .org etc.).
 Einige davon sind bereits registriert, aber nicht aktiv genutzt oder weitergeleitet.
 
+Auch wenn diese Domains lediglich auf die Hauptseite weiterleiten, verursacht jede davon eigenständige laufende Kosten. Ich empfehle daher, gezielt zu entscheiden, welche Varianten dauerhaft benötigt werden (z. B. zur Absicherung gegen Missbrauch oder für Tippfehler) – und welche ggf. gekündigt oder gar nicht erst registriert werden sollten.
+
 Frage:
 Möchtet ihr, dass diese zusätzlichen Domains langfristig gesichert, zentral verwaltet oder aktiv weitergeleitet werden – z. B. um Verwechslungen oder Missbrauch zu vermeiden?
 
