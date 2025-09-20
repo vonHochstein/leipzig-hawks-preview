@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Leipzig Hawks</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Eigene Schriftarten -->
+  <link rel="stylesheet" href="fonts/1942report_regular_macroman/1942-webfont.css">
+  <link rel="stylesheet" href="fonts/aldo/AldotheApache.ttf">
+
+  <!-- stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-gray-100">
+
+  <!-- Fixierter Header -->
+  <header class="fixed top-0 left-0 w-full bg-[#333333] text-white z-50">
+    <div class="max-w-7xl mx-auto flex items-center justify-between p-4">
+
+      <!-- Logo -->
+      <a href="/" class="flex items-center space-x-2">
+        <img src="img/logo.png" alt="Leipzig Hawks Logo" class="h-14 sm:h-12 md:h-10 lg:h-12 xl:h-14 2xl:h-16 w-auto transition-all duration-300 ease-in-out" />
+      </a>
+
+  <!-- Desktop Navigation -->
+  <nav class="hidden md:flex space-x-6 text-sm font-medium">
+    
+    <!-- START -->
+    <a href="#index" class="navigation_filled">START</a>
+
+    <!-- UNSERE TEAMS -->
+    <div class="relative group inline-flex items-center space-x-1">
+      <a href="#teams" class="navigation_transparent group-hover:bg-[#4CAE3B] group-hover:text-white transition flex items-center">
+        UNSERE TEAMS
+        <svg class="w-4 h-4 ml-1 transition-transform duration-200 group-hover:rotate-180"
+            fill="none" stroke="currentColor" stroke-width="2"
+            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+        </svg>
+      </a>
+      <div class="absolute top-full left-0 mt-1 min-w-[200px] z-50
+                  origin-top transition-all duration-300 ease-in-out
+                  transform scale-y-0 opacity-0
+                  group-hover:scale-y-100 group-hover:opacity-100
+                  flex flex-col dropdown">
+        <a href="#herren" class="navigation_transparent px-4 py-2 text-[17px] hover:bg-[#4CAE3B]">Herren</a>
+        <a href="#woman" class="navigation_transparent px-4 py-2 text-[17px] hover:bg-[#4CAE3B]">Woman</a>
+        <a href="#u17" class="navigation_transparent px-4 py-2 text-[17px] hover:bg-[#4CAE3B]">U17 Tackle</a>
+        <a href="#u13" class="navigation_transparent px-4 py-2 text-[17px] hover:bg-[#4CAE3B]">U13 & U16 Flag</a>
+      </div>
+    </div>
+
+    <!-- DER VEREIN -->
+    <div class="relative group inline-flex items-center space-x-1">
+      <a href="#verein" class="navigation_transparent group-hover:bg-[#4CAE3B] group-hover:text-white transition flex items-center">
+        DER VEREIN
+        <svg class="w-4 h-4 ml-1 transition-transform duration-200 group-hover:rotate-180"
+            fill="none" stroke="currentColor" stroke-width="2"
+            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+        </svg>
+      </a>
+      <div class="absolute top-full left-0 mt-1 min-w-[200px] z-50
+                  origin-top transition-all duration-300 ease-in-out
+                  transform scale-y-0 opacity-0
+                  group-hover:scale-y-100 group-hover:opacity-100
+                  flex flex-col dropdown">
+        <a href="#verein-info" class="navigation_transparent px-4 py-2 text-[17px] hover:bg-[#4CAE3B]">Leipzig Hawks e.V.</a>
+        <a href="#mitglied-werden" class="navigation_transparent px-4 text-[17px] py-2 hover:bg-[#4CAE3B]">Mitglied werden</a>
+        <a href="#dokumente" class="navigation_transparent px-4 py-2 text-[17px] hover:bg-[#4CAE3B]">Dokumente</a>
+      </div>
+    </div>
+
+    <!-- MITMACHEN -->
+    <div class="relative group inline-flex items-center space-x-1">
+      <a href="#mitmachen" class="navigation_transparent group-hover:bg-[#4CAE3B] group-hover:text-white transition flex items-center">
+        MITMACHEN
+        <svg class="w-4 h-4 ml-1 transition-transform duration-200 group-hover:rotate-180"
+            fill="none" stroke="currentColor" stroke-width="2"
+            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+        </svg>
+      </a>
+      <div class="absolute top-full left-0 mt-1 min-w-[250px] z-50
+                  origin-top transition-all duration-300 ease-in-out
+                  transform scale-y-0 opacity-0
+                  group-hover:scale-y-100 group-hover:opacity-100
+                  flex flex-col dropdown">
+        <a href="#jobs" class="navigation_transparent px-4 py-2 text-[17px] hover:bg-[#4CAE3B]">Jobs</a>
+        <a href="#spenden" class="navigation_transparent px-4 text-[17px] py-2 hover:bg-[#4CAE3B]">Spenden</a>
+        <a href="#partner" class="navigation_transparent px-4 text-[17px] py-2 hover:bg-[#4CAE3B]">Partner</a>
+        <a href="#football-schulen" class="navigation_transparent px-4 py-2 text-[17px] hover:bg-[#4CAE3B]">Football in Schulen &amp; Horten</a>
+        <a href="#fanclub" class="navigation_transparent px-4 py-2 text-[17px] hover:bg-[#4CAE3B]">Fanclub</a>
+      </div>
+    </div>
+
+    <a href="#shop" class="navigation_transparent">SHOP</a>
+  </nav>
+
+      <!-- Burger-Menü Mobil -->
+      <button id="menu-toggle" class="md:hidden focus:outline-none">
+        <!-- Burger-Icon -->
+        <svg id="icon-burger" class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2"
+            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round"
+                d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+
+        <!-- Kreuz-Icon -->
+        <svg id="icon-close" class="w-6 h-6 hidden" fill="none" stroke="currentColor" stroke-width="2"
+            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round"
+                d="M6 18L18 6M6 6l12 12"></path>
+        </svg>
+      </button>
+      
+      <!-- CTA Button Desktop -->
+      <a href="#probetraining" class="button_probetraining golden-glow-hover">🏈 Probetraining</a>
+    </div>
+
+    <!-- Mobile Navigation -->
+    <div id="mobile-menu" class="md:hidden hidden bg-[#333333] px-4 pb-4 space-y-2">
+
+      <!-- START -->
+      <a href="#index" class="navigation_filled block">START</a>
+
+      <!-- UNSERE TEAMS -->
+      <div>
+        <button class="w-full flex justify-between items-center text-left navigation_transparent"
+                onclick="toggleDropdown('mobile-teams')">
+          UNSERE TEAMS
+          <svg class="w-4 h-4 ml-1 transition-transform duration-200"
+              id="icon-mobile-teams"
+              fill="none" stroke="currentColor" stroke-width="2"
+              viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+          <div id="mobile-teams"
+              class="max-h-0 opacity-0 overflow-hidden transition-all duration-300 ease-in-out flex-col pl-6 space-y-1 text-[15px]">
+            <a href="#herren" class="navigation_transparent block">Herren</a>
+            <a href="#woman" class="navigation_transparent block">Woman</a>
+            <a href="#u17" class="navigation_transparent block">U17 Tackle</a>
+            <a href="#u13" class="navigation_transparent block">U13 & U16 Flag</a>
+          </div>
+      </div>
+
+      <!-- DER VEREIN -->
+      <div>
+        <button class="w-full flex justify-between items-center text-left navigation_transparent"
+                onclick="toggleDropdown('mobile-verein')">
+          DER VEREIN
+          <svg class="w-4 h-4 ml-1 transition-transform duration-200"
+              id="icon-mobile-verein"
+              fill="none" stroke="currentColor" stroke-width="2"
+              viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+        <div id="mobile-verein" 
+        class="max-h-0 opacity-0 overflow-hidden transition-all duration-300 ease-in-out flex-col pl-6 space-y-1 text-[15px]">
+          <a href="#verein-info" class="navigation_transparent block">Leipzig Hawks e.V.</a>
+          <a href="#mitglied-werden" class="navigation_transparent block">Mitglied werden</a>
+          <a href="#dokumente" class="navigation_transparent block">Dokumente</a>
+        </div>
+      </div>
+
+      <!-- MITMACHEN -->
+      <div>
+        <button class="w-full flex justify-between items-center text-left navigation_transparent"
+                onclick="toggleDropdown('mobile-mitmachen')">
+          MITMACHEN
+          <svg class="w-4 h-4 ml-1 transition-transform duration-200"
+              id="icon-mobile-mitmachen"
+              fill="none" stroke="currentColor" stroke-width="2"
+              viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+        <div id="mobile-mitmachen" class="max-h-0 opacity-0 overflow-hidden transition-all duration-300 ease-in-out flex-col pl-6 space-y-1 text-[15px]">
+          <a href="#jobs" class="navigation_transparent block">Jobs</a>
+          <a href="#spenden" class="navigation_transparent block">Spenden</a>
+          <a href="#partner" class="navigation_transparent block">Partner</a>
+          <a href="#football-schulen" class="navigation_transparent block">Football in Schulen &amp; Horten</a>
+          <a href="#fanclub" class="navigation_transparent block">Fanclub</a>
+        </div>
+      </div>
+
+      <!-- SHOP -->
+      <a href="#shop" class="navigation_transparent">SHOP</a>
+    </div>
+
+  </header>
+
+  <!-- Platzhalter für Header -->
+  <div class="bg-[#333333] h-24"></div>
+
+<!-- Aktuell wrapper-->
+<section class="bg-[#333333] text-white py-10 px-6 md:px-16">
+<div class="max-w-6xl mx-auto flex flex-col md:flex-row gap-8 md:items-center">
+
+<!-- Info-Block -->
+<div class="flex-1 flex flex-col items-center md:md:items-center text-center md:text-left space-y-4 order-2 md:order-1">
+  <h1 class="h1 rivera">Home Game – Herren</h1>
+  <p class="text-xl text-[#4CAE3B] font-bold">
+    Samstag, 20. September 2025<br>
+    <span class="text-lg font-normal">Leipzig Hawks vs. Jenaer Hanfrieds</span>
+  </p>
+  <p class="text-md text-[#4CAE3B]">LSV Südwest e.V., Windorfer Str. 63, 04229 Leipzig</p>
+  <br>
+  <a href="#tickets" class="button_ticket golden-glow-hover">🎟️ Ticket kaufen</a>
+</div>
+
+  <!-- Countdown Block-->
+  <div class="flex-1 countdown-wrapper space-y-2 order-1 md:order-2">
+    <div class="flex justify-center md:justify-end gap-4">
+      <div class="countdown-box text-center">
+        <div class="value text-3xl font-bold" id="days">--</div>
+        <div class="label text-sm">Tage</div>
+      </div>
+      <div class="countdown-box text-center">
+        <div class="value text-3xl font-bold" id="hours">--</div>
+        <div class="label text-sm">Stunden</div>
+      </div>
+      <div class="countdown-box text-center">
+        <div class="value text-3xl font-bold" id="minutes">--</div>
+        <div class="label text-sm">Minuten</div>
+      </div>
+      <div class="countdown-box text-center">
+        <div class="value text-3xl font-bold" id="seconds">--</div>
+        <div class="label text-sm">Sekunden</div>
+      </div>
+    </div>
+  </div>
+
+</div>
+</section>
+
+<!-- Hauptinhalt -->
+  <main class="max-w-4xl mx-auto mt-10 p-4 space-y-6 text-center">
+    <h1 class="h1 rivera">Du hast Bock auf American Football?</h1>
+    <p class="text-center ">Du bist dir aber nicht sicher, ob es das richtige für dich ist? Oder, du kannst dich einfach nicht entscheiden? Vielleicht brauchst du noch einen kleinen Schubser?</p>
+    <p class="text-center font-bold">Dann komm zum Probetraining und lass dich direkt vom Hawks-Spirit mitreißen!</p><br>
+    <a href="#probetraining" class="button_probetraining golden-glow-hover">🏈 Probetraining</a><br>
+   </div><br>
+  </main>
+
+<!-- Unsere Teams wrapper-->
+<section class="bg-[#f4bd08] text-white text-center py-10 px-6 md:px-16">
+  <h1 class="h1 rivera text-[#333333]">Unsere Teams</h1>
+  <main class="max-w-7xl mx-auto mt-10 p-4 space-y-6 text-center">
+    <div class="grid grid-cols-2 sm:grid-cols-4 gap-6 items-center">
+      
+      <!-- Team 1 -->
+      <a href="#herren" class="block rounded-3xl overflow-hidden transform transition duration-300 hover:scale-110">
+        <img src="img/Startseite_teams-1-600x375.png" class="w-full h-auto object-contain">
+      </a>
+
+      <!-- Team 2 -->
+      <a href="#woman" class="block rounded-3xl overflow-hidden transform transition duration-300 hover:scale-110">
+        <img src="img/Startseite_teams-2-600x375.png" class="w-full h-auto object-contain">
+      </a>
+
+      <!-- Team 3 -->
+      <a href="#u17" class="block rounded-3xl overflow-hidden transform transition duration-300 hover:scale-110">
+        <img src="img/Startseite_teams-3-600x375.png" class="w-full h-auto object-contain">
+      </a>
+
+      <!-- Team 4 -->
+      <a href="#u13" class="block rounded-3xl overflow-hidden transform transition duration-300 hover:scale-110">
+        <img src="img/Startseite_teams-4-600x375.png" class="w-full h-auto object-contain">
+      </a>
+      
+    </div>
+  </main><br>
+</section>
+
+<!-- Der Verein wrapper-->
+<section class="bg-[#] text-white py-10 px-6 md:px-16">
+<div class="max-w-6xl mx-auto flex flex-col md:flex-row gap-8 md:items-center">
+
+<!-- Der Verein-Block -->
+<div class="flex-1 flex flex-col items-left md:md:items-left text-left md:text-left space-y-4 order-2 md:order-1">
+  <h1 class="h1 rivera text-[#333333]">Der Verein</h1>
+  <p class="text-md text-[#333333]">Der ASC Leipzig Hawks e.V. wurde im September 2015 von acht Gründungsmitgliedern gegründet. Der Verein hat seinen Sitz in Leipzig (VR 5781) und verfolgt einen gemeinnützigen Zweck. Zweck des Vereines ist die Pflege und Förderung des American Footballsports insbesondere die Förderung von Kindern und Jugendlichen im Freizeit- und Breitensport sowie im Leistungssport.</p>
+</div>
+
+  <!-- Bild Block-->
+  <div class="flex-1 space-y-2 order-1 md:order-2">
+    <img
+      loading="lazy"
+      decoding="async"
+      width="800"
+      height="534"
+      src="img/DSC01869-scaled.jpg"
+      srcset="
+        img/DSC01869-scaled-600x400.jpg 600w,
+        img/DSC01869-scaled.jpg 2560w"
+      sizes="(max-width: 600px) 100vw, 800px"
+      alt="Leipzig Hawks – Impression"
+      class="rounded-3xl"
+    />
+  </div>
+ </div>
+  
+<!-- Sponsoren Block-->
+  <main class="max-w-4xl mx-auto mt-10 p-4 space-y-6 text-center">
+    <div class="grid grid-cols-2 sm:grid-cols-4 gap-6 items-center">
+      <img src="img/sponsor-03.jpg" class="rounded-3xl overflow-hidden w-100 h-auto object-contain">
+      <img src="img/sponsor-02.jpg" class="rounded-3xl overflow-hidden w-100 h-auto object-contain">
+      <img src="img/sponsor-01.jpg" class="rounded-3xl overflow-hidden w-100 h-auto object-contain">
+      <img src="img/sponsor-04.jpg" class="rounded-3xl overflow-hidden w-100 h-auto object-contain">
+    </div>
+  </main><br>
+
+  <div class="flex justify-center items-center">
+   <img src="img/NFL-Merch_American-Football-Shop-1536x148.png" width="800"  class="overflow-hidden">
+  </div><br>
+
+</section>
+
+<!-- Footer 01 -->
+<section class="bg-[#4CAE3B] text-white py-10 px-6 md:px-16">
+<div class="max-w-4xl mx-auto flex flex-col md:flex-row gap-8 md:items-center">
+
+  <!-- Der Verein-Block -->
+  <div class="flex-1 flex flex-col items-center md:md:items-center text-center md:text-center space-y-4 order-2 md:order-1">
+    <h1 class="text-xl text-[#333333] font-bold">Postadresse</h1>
+    <p class="text-md text-[#333333]">
+      Postadresse<br>
+      American Sports Club Leipzig Hawks e.V.<br>
+      Distelweg 1a<br>
+      06130 Halle<br><br>
+
+      E-Mail: info@leipzig-hawks.de</p>
+  </div>
+
+<!-- Bild Block -->
+<div class="flex-1 flex flex-col items-center md:md:items-center text-center md:text-center space-y-4  order-1 md:order-2">
+  <h1 class="text-md text-[#333333] font-bold">Folge uns auf Social-Media</h1><br>
+
+  <div class="flex justify-center space-x-6">
+    <!-- Instagram -->
+    <a href="https://www.instagram.com/leipzighawks" target="_blank"
+      class="w-14 h-14 flex items-center justify-center rounded-full bg-white text-gray-600
+              hover:bg-[#E1306C] hover:text-white transition">
+      <svg class="w-9 h-9" fill="currentColor" viewBox="0 0 24 24">
+        <path d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2zm0 1.5A4.25 4.25 0 0 0 3.5 7.75v8.5A4.25 4.25 0 0 0 7.75 20.5h8.5a4.25 4.25 0 0 0 4.25-4.25v-8.5A4.25 4.25 0 0 0 16.25 3.5h-8.5zm4.25 4.25a5.25 5.25 0 1 1 0 10.5 5.25 5.25 0 0 1 0-10.5zm0 1.5a3.75 3.75 0 1 0 0 7.5 3.75 3.75 0 0 0 0-7.5zm5-1.5a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+      </svg>
+    </a>
+
+    <!-- Facebook -->
+    <a href="https://www.facebook.com/leipzighawks" target="_blank"
+      class="w-14 h-14 flex items-center justify-center rounded-full bg-white text-gray-600
+              hover:bg-[#1877F2] hover:text-white transition">
+      <svg class="w-9 h-9" fill="currentColor" viewBox="0 0 24 24">
+        <path d="M13.5 9H16V6h-2.5C11.57 6 10 7.57 10 9.5V12H8v3h2v6h3v-6h2.293L16 12h-3v-2.5c0-.276.224-.5.5-.5z"/>
+      </svg>
+    </a>
+
+    <!-- YouTube -->
+    <a href="https://www.youtube.com/channel/UCFHgdjZDQuDBbzA3EnwfTLQ" target="_blank"
+      class="w-14 h-14 flex items-center justify-center rounded-full bg-white text-gray-600
+              hover:bg-[#FF0000] hover:text-white transition">
+      <svg class="w-9 h-9" fill="currentColor" viewBox="0 0 24 24">
+        <path d="M21.8 8.001a2.75 2.75 0 0 0-1.94-1.947C18.03 6 12 6 12 6s-6.03 0-7.86.054A2.75 2.75 0 0 0 2.2 8.001 28.62 28.62 0 0 0 2 12a28.62 28.62 0 0 0 .2 3.999 2.75 2.75 0 0 0 1.94 1.947C5.97 18 12 18 12 18s6.03 0 7.86-.054a2.75 2.75 0 0 0 1.94-1.947A28.62 28.62 0 0 0 22 12a28.62 28.62 0 0 0-.2-3.999zM10 14.65V9.35L15 12l-5 2.65z"/>
+      </svg>
+    </a>
+  </div>
+</div>
+
+</div>
+</section>
+
+<!-- Footer 02 -->
+<section class="bg-[#333333] text-white py-5 px-6 md:px-16">
+<div class="max-w-6xl mx-auto flex flex-col md:flex-row md:items-center">
+
+<!-- Copyright -->
+<div class="flex-1 flex flex-col items-center md:md:items-center text-center md:text-left space-y-4 order-2 md:order-1">
+  <p>© 2025 American Sports Club Leipzig Hawks e.V.</p>
+</div>
+
+<!-- Impressum-->
+<div class="flex-1 flex flex-col items-center md:md:items-center text-center md:text-left space-y-4 order-2 md:order-1">
+  <p>Impressum & Datenschutz</p>
+</div>
+
+</div>
+</section>
+
+<!-- Script Section -->
+
+  <!-- Burger-Menü -->
+  <script>
+    const toggle = document.getElementById("menu-toggle");
+    const iconBurger = document.getElementById("icon-burger");
+    const iconClose = document.getElementById("icon-close");
+    const mobileMenu = document.getElementById("mobile-menu");
+
+    toggle.addEventListener("click", () => {
+      // Menü ein-/ausblenden
+      mobileMenu.classList.toggle("hidden");
+
+      // Icons umschalten
+      iconBurger.classList.toggle("hidden");
+      iconClose.classList.toggle("hidden");
+    });
+  </script>
+
+  <!-- Burger-Menü - Dropdown -->
+  <script>
+    function toggleDropdown(id) {
+      // alle Menüs schließen
+      const allMenus = document.querySelectorAll('#mobile-menu > div > div[id]');
+      const allIcons = document.querySelectorAll('#mobile-menu svg[id^="icon-"]');
+
+      allMenus.forEach(menu => {
+        if (menu.id !== id) {
+          menu.classList.remove("max-h-screen", "opacity-100");
+          menu.classList.add("max-h-0", "opacity-0", "overflow-hidden");
+        }
+      });
+
+      allIcons.forEach(icon => {
+        if (icon.id !== "icon-" + id) {
+          icon.classList.remove("rotate-180");
+        }
+      });
+
+      // aktuelles Menü umschalten
+      const menu = document.getElementById(id);
+      const icon = document.getElementById("icon-" + id);
+
+      if (menu.classList.contains("max-h-0")) {
+        menu.classList.remove("max-h-0", "opacity-0", "overflow-hidden");
+        menu.classList.add("max-h-screen", "opacity-100");
+        icon.classList.add("rotate-180");
+      } else {
+        menu.classList.remove("max-h-screen", "opacity-100");
+        menu.classList.add("max-h-0", "opacity-0", "overflow-hidden");
+        icon.classList.remove("rotate-180");
+      }
+    }
+  </script>
+  
+  <!-- Countdown -->
+  <script>
+  const zielDatum = new Date("2025-09-21T01:33:00").getTime();
+
+  const updateCountdown = () => {
+    const jetzt = new Date().getTime();
+    const diff = zielDatum - jetzt;
+
+    if (diff <= 0) {
+      document.querySelector(".countdown-wrapper").innerHTML =
+        '<p class="event-live">Das Event läuft!</p>';
+      return;
+    }
+
+
+    const tage = Math.floor(diff / (1000 * 60 * 60 * 24));
+    const stunden = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minuten = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+    const sekunden = Math.floor((diff % (1000 * 60)) / 1000);
+
+    document.getElementById("days").textContent = tage;
+    document.getElementById("hours").textContent = stunden;
+    document.getElementById("minutes").textContent = minuten;
+    document.getElementById("seconds").textContent = sekunden;
+  };
+
+  updateCountdown();
+  setInterval(updateCountdown, 1000);
+</script>
+
+</body>
+</html>

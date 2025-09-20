@@ -1,0 +1,172 @@
+/* Eigene Schriftarten */
+@font-face {
+  font-family: 'Aldo the Apache'; /* Font License: Free for commercial use */
+  src: url('fonts/aldo/AldotheApache.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'rivera'; /* Font License: Free for commercial use */
+  src: url('fonts/rivera/rivera.regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.rivera {
+  font-family: 'rivera', sans-serif;
+}
+
+/* navigation_transparent */
+.navigation_transparent {
+  font-family: 'Aldo the Apache', sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.2;
+  transition: all 0.2s ease-in-out;
+  padding: 0.5rem 1rem;
+  border-radius: 5rem;
+}
+
+.navigation_transparent:hover {
+  background-color: #4CAE3B;
+  color: white;
+}
+
+/* navigation_filled */
+.navigation_filled {
+  font-family: 'Aldo the Apache', sans-serif;
+  font-size: 1.5rem;
+  background-color: #4CAE3B;
+  line-height: 1.2;
+  transition: all 0.2s ease-in-out;
+  padding: 0.5rem 1rem;
+  border-radius: 5rem;
+}
+
+.navigation_filled:hover {
+  background-color: #f4bd08;
+  color: 000000;
+}
+
+/* dropdown menu */
+.dropdown {
+  background-color: rgba(51, 51, 51, 0.75); /* mit Transparenz */
+  backdrop-filter: blur(2px);                 /* Weicher Hintergrundeffekt */
+  border-radius: 1rem;
+  color: white;
+  box-shadow: none !important;
+  transition: all 0.3s ease;
+  opacity: 0;
+  transform: translateY(-5px);
+}
+
+.group:hover .dropdown {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* button_probetraining */
+.button_probetraining {
+  font-family: "Open Sans", Arial;
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1.2;
+  padding: 0.5rem 1rem;
+  border-radius: 5rem;
+  background-color: #4CAE3B;
+  color: white;
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+  transform: scale(1.1);
+}
+
+.button_probetraining:hover {
+  background-color: #f4bd08;
+  color: #000000;
+  transform: scale(1.2);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* button_ticket */
+.button_ticket {
+  font-family: "Open Sans", Arial;
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.2;
+  padding: 0.5rem 1rem;
+  border-radius: 5rem;
+  background-color: #4CAE3B;
+  color: white;
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+  transform: scale(1.1);
+}
+
+.button_ticket:hover {
+  background-color: #f4bd08;
+  color: #000000;
+  transform: scale(1.2);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Headlines */
+.h1 {
+  color: #4CAE3B;
+  font-size: 3rem;
+}
+
+.golden-glow {
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.6), 0 0 20px rgba(255, 215, 0, 0.3);
+}
+
+.golden-glow-hover {
+  transition: box-shadow 0.3s ease;
+}
+.golden-glow-hover:hover {
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.6), 0 0 20px rgba(255, 215, 0, 0.3);
+}
+
+/* pictures */
+.image {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* countdown */
+.countdown-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.countdown-box {
+    background: #4CAE3B;
+    color: #2f2f32;
+    padding: 15px 20px;
+    border-radius: 1rem;
+    min-width: 100px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+.countdown-box .value {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+.countdown-box .label {
+    font-size: 0.9rem;
+    color: #2f2f32;
+    margin-top: 5px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.event-live {
+  font-family: 'rivera', sans-serif;
+  font-size: 2rem;       /* entspricht text-xl */
+  font-weight: bold;
+  color: #4CAE3B;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  display: inline-block;
+
+}
