@@ -142,18 +142,18 @@
 .countdown-box {
     background: #4CAE3B;
     color: #2f2f32;
-    padding: 15px 20px;
+    padding: 11px 14px;
     border-radius: 1rem;
     min-width: 100px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
 .countdown-box .value {
-    font-size: 2rem;
+    font-size: 1.7rem;
     font-weight: bold;
     text-align: center;
 }
 .countdown-box .label {
-    font-size: 0.9rem;
+    font-size: 0.rem;
     color: #2f2f32;
     margin-top: 5px;
     text-transform: uppercase;
