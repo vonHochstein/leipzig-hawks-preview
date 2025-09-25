@@ -457,29 +457,38 @@
     }
   </script>
   
-  <!-- Countdown -->
-  <script>
-  const zielDatum = new Date("2025-11-22T12:00:00").getTime();
+<!-- Countdown -->
+<script>
+  const eventStart = new Date("2025-11-22T12:00:00").getTime();
+  const eventEnd   = new Date("2025-11-23T00:00:00").getTime(); // Mitternacht danach
 
   const updateCountdown = () => {
     const jetzt = new Date().getTime();
-    const diff = zielDatum - jetzt;
 
-    if (diff <= 0) {
-      document.querySelector(".countdown-wrapper").innerHTML =
-        '<p class="event-live">Das Event läuft!</p>';
-      return;
+    if (jetzt < eventStart) {
+      // Countdown läuft
+      const diff = eventStart - jetzt;
+
+      const tage = Math.floor(diff / (1000 * 60 * 60 * 24));
+      const stunden = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const minuten = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+      const sekunden = Math.floor((diff % (1000 * 60)) / 1000);
+
+      document.getElementById("days").textContent = tage;
+      document.getElementById("hours").textContent = stunden;
+      document.getElementById("minutes").textContent = minuten;
+      document.getElementById("seconds").textContent = sekunden;
     }
-
-    const tage = Math.floor(diff / (1000 * 60 * 60 * 24));
-    const stunden = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    const minuten = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
-    const sekunden = Math.floor((diff % (1000 * 60)) / 1000);
-
-    document.getElementById("days").textContent = tage;
-    document.getElementById("hours").textContent = stunden;
-    document.getElementById("minutes").textContent = minuten;
-    document.getElementById("seconds").textContent = sekunden;
+    else if (jetzt >= eventStart && jetzt < eventEnd) {
+      // Event läuft
+      document.querySelector(".countdown-wrapper").innerHTML =
+        '<p class="event-live">Das Event läuft gerade!</p>';
+    }
+    else {
+      // Event vorbei
+      document.querySelector(".countdown-wrapper").innerHTML =
+        '<p class="event-over">Das Event ist vorbei... <br>aber es kommt bald ein neues!</p>';
+    }
   };
 
   updateCountdown();
