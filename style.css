@@ -160,6 +160,7 @@
     text-align: center;
 }
 
+/* Event läuft */
 .event-live {
   font-family: 'rivera', sans-serif;
   font-size: 2rem;       /* entspricht text-xl */
@@ -170,6 +171,18 @@
   display: inline-block;
 }
 
+/* Event vorbei */
+.event-over {
+  font-family: 'rivera', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #888;               /* neutral/grau */
+  padding: 0.5rem 1rem;
+  text-align: center;
+  display: inline-block;
+}
+
+/* fog */
 .homegame-section {
   background-image: url('img/giphy_hex333333.gif');
   background-repeat: no-repeat;
@@ -179,6 +192,7 @@
   position: relative;         /* für Overlay */
 }
 
+/* line */
 .short-line {
   width: 400px;               /* Breite der Linie */
   border-bottom: 1px solid #4CAE3B;
