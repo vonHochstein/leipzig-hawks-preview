@@ -178,3 +178,9 @@
   background-color: #333;     /* Fallback */
   position: relative;         /* für Overlay */
 }
+
+.short-line {
+  width: 400px;               /* Breite der Linie */
+  border-bottom: 1px solid #4CAE3B;
+  margin: 20px auto;
+}
