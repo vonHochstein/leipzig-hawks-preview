@@ -168,5 +168,13 @@
   padding: 0.5rem 1rem;
   text-align: center;
   display: inline-block;
+}
 
+.homegame-section {
+  background-image: url('img/giphy_hex333333.gif');
+  background-repeat: no-repeat;
+  background-size: auto;      /* behält Proportionen des GIF */
+  background-position: center;
+  background-color: #333;     /* Fallback */
+  position: relative;         /* für Overlay */
 }
