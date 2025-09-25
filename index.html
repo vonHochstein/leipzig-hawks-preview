@@ -12,6 +12,7 @@
 
   <!-- stylesheet -->
   <link rel="stylesheet" href="style.css">
+  
 </head>
 
 <body class="bg-gray-100">
@@ -100,7 +101,7 @@
       </div>
     </div>
 
-    <a href="https://www.indoortrends.de/vereinsheim/hawks-leipzig/" class="navigation_transparent">SHOP</a>
+    <a href="https://www.indoortrends.de/vereinsheim/hawks-leipzig/" target="_blank" class="navigation_transparent">SHOP</a>
   </nav>
 
       <!-- Burger-Menü Mobil -->
@@ -209,12 +210,13 @@
 <div class="flex-1 flex flex-col items-center md:md:items-center text-center md:text-left space-y-4 order-2 md:order-1">
   <h1 class="h1 rivera">Home Game – Herren</h1>
   <p class="text-xl text-[#4CAE3B] font-bold">
-    Samstag, 20. September 2025<br>
-    <span class="text-lg font-normal">Leipzig Hawks vs. Jenaer Hanfrieds</span>
+    Samstag, 22. November 2025<br>
+    <span class="text-lg font-normal">Leipzig Hawks vs. Dallas Cowboys</span>
   </p>
-  <p class="text-md text-[#4CAE3B]">LSV Südwest e.V., Windorfer Str. 63, 04229 Leipzig</p>
+  <div class="short-line"></div>
+   <p class="text-md text-[#4CAE3B]">LSV Südwest e.V., Windorfer Str. 63, 04229 Leipzig</p>
   <br>
-  <a href="https://www.indoortrends.de/vereinsheim/hawks-leipzig/" class="button_ticket golden-glow-hover">🎟️ Ticket kaufen</a>
+  <a href="https://leipzig-hawks.tivents.app/events" target="_blank" class="button_ticket golden-glow-hover">🎟️ Ticket kaufen</a>
 </div>
 
   <!-- Countdown Block-->
@@ -319,9 +321,15 @@
     </div>
   </main><br>
 
-  <div class="flex justify-center items-center">
-   <img src="img/NFL-Merch_American-Football-Shop-1536x148.png" width="800"  class="overflow-hidden">
-  </div><br>
+<div class="flex justify-center items-center">
+  <a href="https://www.american-footballshop.de/American-Football-Player-Equipment-Spielausruestung?gac=ca-1-2&gad_source=1&gclid=CjwKCAiAuNGuBhAkEiwAGId4auQMANMBP8nrQT8MCpphFaqEz6_GZrbpKczl859fOY_lVmk6brpCPxoC8oMQAvD_BwE" target="_blank">
+    <img src="img/NFL-Merch_American-Football-Shop-1536x148.png" 
+         width="800" 
+         class="overflow-hidden"
+         alt="NFL Merch Banner">
+  </a>
+</div>
+<br>
 
 </section>
 
@@ -451,7 +459,7 @@
   
   <!-- Countdown -->
   <script>
-  const zielDatum = new Date("2025-10-24T01:33:00").getTime();
+  const zielDatum = new Date("2025-11-22T12:00:00").getTime();
 
   const updateCountdown = () => {
     const jetzt = new Date().getTime();
