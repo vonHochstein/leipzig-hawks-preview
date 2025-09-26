@@ -182,9 +182,8 @@
   display: inline-block;
 }
 
-/* fog */
+/* homegame section*/
 .homegame-section {
-  background-image: url('img/giphy_hex333333.gif');
   background-repeat: no-repeat;
   background-size: auto;      /* behält Proportionen des GIF */
   background-position: center;
@@ -197,4 +196,13 @@
   width: 400px;               /* Breite der Linie */
   border-bottom: 1px solid #4CAE3B;
   margin: 20px auto;
+}
+
+/* Statischer Verlauf */
+.static-gradient_01 {
+  background: linear-gradient(to bottom, #333, #f4bd08);
+}
+
+.static-gradient_02 {
+  background: linear-gradient(to bottom, #f4bd08, #4CAE3B);
 }
