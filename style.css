@@ -1,35 +1,35 @@
 /* Standard-Cursor für normale Displays */
-body, body * {
+body {
   cursor: url('img/cursor_64.png'), auto;
 }
 
 /* Retina / HiDPI Displays: 2x Auflösung */
 @media (min-resolution: 2dppx) {
-  body, body * {
+  body {
     cursor: url('img/cursor_64.png'), auto;
   }
 }
 
 /* Optional: 4K/8K Displays mit noch höherer Pixeldichte */
 @media (min-resolution: 3dppx) {
-  body, body * {
+  body {
     cursor: url('img/cursor_64.png'), auto;
   }
 }
 
 /* Hover-Variante für Links & Buttons */
-a:hover, button:hover, footer a:hover {
+a:hover, button:hover {
   cursor: url('img/cursor_64_hover.png'), auto;
 }
 
 @media (min-resolution: 2dppx) {
-  a:hover, button:hover, footer a:hover {
+  a:hover, button:hover {
     cursor: url('img/cursor_64_hover.png'), auto;
   }
 }
 
 @media (min-resolution: 3dppx) {
-  a:hover, button:hover, footer a:hover {
+  a:hover, button:hover {
     cursor: url('img/cursor_64_hover.png'), auto;
   }
 }
@@ -242,6 +242,7 @@ a:hover, button:hover, footer a:hover {
 .static-gradient_02 {
   background: linear-gradient(to bottom, #f4bd08, #4CAE3B);
 }
+
 
 
 
