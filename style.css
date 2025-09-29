@@ -1,6 +1,6 @@
 /* Standard-Cursor für normale Displays */
 body {
-  cursor: url('img/cursor_32.png') 0 0, auto;
+  cursor: url('img/cursor_32.png') 1 1, auto;
 }
 
 /* Retina / HiDPI Displays: 2x Auflösung */
@@ -242,6 +242,7 @@ a:hover, button:hover {
 .static-gradient_02 {
   background: linear-gradient(to bottom, #f4bd08, #4CAE3B);
 }
+
 
 
 
