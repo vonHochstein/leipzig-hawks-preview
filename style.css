@@ -1,19 +1,19 @@
 /* Standard-Cursor für normale Displays */
 body {
-  cursor: url('img/hawks-cursor-32.png') 0 0, auto;
+  cursor: url('img/cursor_32.png') 0 0, auto;
 }
 
 /* Retina / HiDPI Displays: 2x Auflösung */
 @media (min-resolution: 2dppx) {
   body {
-    cursor: url('img/hawks-cursor-64.png') 0 0, auto;
+    cursor: url('img/cursor_64.png') 0 0, auto;
   }
 }
 
 /* Optional: 4K/8K Displays mit noch höherer Pixeldichte */
 @media (min-resolution: 3dppx) {
   body {
-    cursor: url('img/hawks-cursor-64.png') 0 0, auto;
+    cursor: url('img/cursor_64.png') 0 0, auto;
   }
 }
 
@@ -225,5 +225,6 @@ body {
 .static-gradient_02 {
   background: linear-gradient(to bottom, #f4bd08, #4CAE3B);
 }
+
 
 
